@@ -28,3 +28,6 @@ const counterReducer = (state = initialCounter, action) => {
       return state;
   }
 };
+
+
+export default counterReducer;
