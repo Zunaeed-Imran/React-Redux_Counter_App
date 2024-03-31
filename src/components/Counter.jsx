@@ -1,20 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 
 const Counter = () => {
 
-  const [count, setCount] = useState(0);
-
-  const handleIncrement = () => {
-    setCount((count)=>count+1);
-  }
 
   return (
     <>
       <h2>Counter App</h2>
 
-      <h3>Count: {count}</h3>
-      <button onClick={handleIncrement}>Increment</button>
+      <h3>Count: </h3>
+      <button >Increment</button>
     </>
   );
 }
